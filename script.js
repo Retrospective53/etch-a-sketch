@@ -1,15 +1,17 @@
+/* const container = document.createElement('div');
+const container2 = document.createElement('div'); */
+//grid.classList.add('grid');
+
 const body = document.querySelector('body');
-const container = document.createElement('div');
-const container2 = document.createElement('div');
-const grid = document.createElement('div');
-grid.classList.add('grid');
+const grid = document.querySelector('.grid');
 
-const gridButton = document.createElement('button');
-gridButton.textContent = 'Etch a Sketch';
+//gridButton.textContent = 'Etch a Sketch';
+//body.appendChild(gridButton);
+
+const gridButton = document.querySelector('.gridButton');
 gridButton.addEventListener('click', makeCell);
-body.appendChild(gridButton);
 
-body.appendChild(grid);
+//body.appendChild(grid);
 
 function makeCell(e) {
     // Create grid

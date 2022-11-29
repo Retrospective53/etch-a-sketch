@@ -1,4 +1,5 @@
 body {
+    font-family: 'roboto', sans-serif;
     height: 100vh;
     width: auto;
     display: flex;
@@ -6,8 +7,64 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     background-color: rgb(236, 210, 175);
+    margin: 0;
+}
+
+.container {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(236, 210, 175);
+    margin: 0;
+}
+
+.containerMid {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    height: 100%;
+    width: 25vw;
+}
+
+.footer {
+    background-color: darkred;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px ;
+    border: 10px solid rgb(214, 154, 75);
+    background-color: rgb(214, 154, 75);
+}
+
+button {
+    width: 100%;
+    height: auto;
 }
 
 /* .cell {
