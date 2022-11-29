@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(236, 210, 175);
+}
+
+/* .cell {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+ */
+
+.cell {
+    min-height: 1px;
+    min-width: 1px;
+    height: auto;
+    width: auto;
+    background-color: darkred;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgb(90, 22, 22);
+    grid-template-columns: repeat(16, 1fr);
+    row-gap: 0;
+    column-gap: 0;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0;
+}
